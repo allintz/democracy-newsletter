@@ -19,12 +19,14 @@
       <link>https://allintz.github.io/democracy-newsletter/podcast</link>
     </image>
     <item>
-      <title>Daily Democracy Newsletter</title>
-      <description>When we think about threats to democracy, we often imagine dramatic moments: stolen elections, military coups, constitutional crises. But one of the most effective tools for democratic backsliding is...</description>
+      <title>The Bush v. Gore Paradox: How the Supreme Court Both Saved and Threatened Democracy</title>
+      <description># The Bush v. Gore Paradox: How the Supreme Court Both Saved and Threatened Democracy
+
+You probably know that Bush v. Gore decided the 2000 election. But here&apos;s what makes it fascinating for anyone wo...</description>
       <pubDate>Tue, 13 Jan 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://allintz.github.io/democracy-newsletter/podcast/2026-01-13.mp3" length="10462817" type="audio/mpeg"/>
+      <enclosure url="https://raw.githubusercontent.com/allintz/democracy-newsletter/main/podcast/2026-01-13.mp3" length="12271744" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-01-13.mp3</guid>
-      <itunes:duration>600</itunes:duration>
+      <itunes:duration>720</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
