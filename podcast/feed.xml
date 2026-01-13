@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Deep Democracy Learning</title>
+    <link>https://allintz.github.io/democracy-newsletter/podcast</link>
+    <description>Daily audio briefing on voter subversion, election integrity, and threats to democracy in America</description>
+    <language>en-us</language>
+    <itunes:author>Democracy Watch</itunes:author>
+    <itunes:category text="News">
+      <itunes:category text="Politics"/>
+    </itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://allintz.github.io/democracy-newsletter/podcast/artwork.jpg"/>
+    <image>
+      <url>https://allintz.github.io/democracy-newsletter/podcast/artwork.jpg</url>
+      <title>Deep Democracy Learning</title>
+      <link>https://allintz.github.io/democracy-newsletter/podcast</link>
+    </image>
+    <item>
+      <title>Daily Democracy Newsletter</title>
+      <description>When we think about threats to democracy, we often imagine dramatic moments: stolen elections, military coups, constitutional crises. But one of the most effective tools for democratic backsliding is...</description>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://allintz.github.io/democracy-newsletter/podcast/2026-01-13.mp3" length="10462817" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-01-13.mp3</guid>
+      <itunes:duration>600</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
