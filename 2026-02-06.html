@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Newsletter - Friday, February 6, 2026</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #333;
+            background-color: #fafafa;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            border-bottom: 2px solid #2c5282;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #2c5282;
+            margin-bottom: 10px;
+        }
+        .date {
+            color: #718096;
+            font-size: 0.9em;
+        }
+        h2 {
+            color: #2d3748;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: #4a5568;
+            margin-top: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        a {
+            color: #2c5282;
+            text-decoration: underline;
+        }
+        a:hover {
+            color: #1a365d;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            color: #718096;
+            font-size: 0.9em;
+        }
+        ul, ol {
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        blockquote {
+            border-left: 4px solid #2c5282;
+            padding-left: 20px;
+            margin: 20px 0;
+            color: #4a5568;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Democracy Watch Newsletter</h1>
+            <div class="date">Friday, February 6, 2026</div>
+        </div>
+        <div class="content">
+            <h1>The Electoral College vs. The National Popular Vote: Why This Seemingly Boring Structural Detail Creates Concentrated Attack Surfaces</h1>
+
+            <p><strong>Epistemic status:</strong> High confidence on basic mechanics and historical examples; moderate confidence on some counterfactual scenarios about future vulnerability.</p>
+
+            <p><strong>Reading time:</strong> ~5 minutes</p>
+
+            <p>---</p>
+
+            <p>Here's something I've been thinking about: Nearly every election subversion attempt we've discussed—fake electors, certification refusals, voter roll purges in swing counties—shares a common feature. They all target a handful of specific jurisdictions where changing a relatively small number of votes could flip the entire election.</p>
+
+            <p>This isn't a coincidence. It's a direct consequence of how the Electoral College works.</p>
+
+            <p>Today I want to explore why the Electoral College structure creates what security researchers would call "high-value targets"—specific states and counties where subversion efforts produce maximum impact. This matters enormously for anyone thinking about democracy protection, because it fundamentally shapes where vulnerabilities exist and where defenses need to be strongest.</p>
+
+            <h2>The Basic Problem: Winner-Take-All Creates Tipping Points</h2>
+
+            <p>Let's start with the mechanics. The U.S. doesn't elect presidents through a national popular vote. Instead, <a href="https://www.archives.gov/electoral-college/about">each state gets a number of electors equal to its congressional delegation</a>, and in 48 states plus DC, whoever wins the state's popular vote gets ALL of that state's electors.</p>
+
+            <p>This creates an odd mathematical reality: In a close national election, the entire presidency can hinge on a few thousand votes in just a handful of states.</p>
+
+            <p>Consider 2020. According to <a href="https://www.brookings.edu/articles/bidens-victory-was-decisive-and-workmanlike/">detailed analysis by election experts</a>, if roughly 43,000 voters across Arizona, Georgia, and Wisconsin had switched from Biden to Trump, Trump would have won the Electoral College despite losing the national popular vote by over 7 million.</p>
+
+            <p>That's 0.03% of all votes cast determining the presidency.</p>
+
+            <h2>Why This Creates Concentrated Attack Surfaces</h2>
+
+            <p>Now think about this from a would-be election subverter's perspective.</p>
+
+            <p>In a national popular vote system, you'd need to flip or suppress millions of votes spread across the entire country to change the outcome. That's logistically difficult, highly visible, and hard to coordinate.</p>
+
+            <p>But in the Electoral College system? You can focus all your efforts on three or four states. Even better, within those states, you can focus on specific counties or processes where you might have sympathetic officials.</p>
+
+            <p>This is exactly what happened in 2020. <a href="https://www.nytimes.com/2022/10/02/us/politics/trump-lawyers-voting-machines.html">The Trump campaign's pressure efforts</a> concentrated almost entirely on Arizona, Georgia, Michigan, Nevada, Pennsylvania, and Wisconsin—the six closest Biden-won states. They didn't bother with California or Texas because those states weren't close enough to flip.</p>
+
+            <p>The fake electors scheme we discussed earlier followed the same pattern. According to <a href="https://www.documentcloud.org/documents/23589544-whitmer-kidnapping-indictment">court filings in multiple states</a>, Trump allies created fraudulent elector slates in exactly seven states—the ones where the margin was closest.</p>
+
+            <h2>The County-Level Vulnerability</h2>
+
+            <p>It gets worse. Within swing states, the Electoral College system creates additional concentration effects at the county level.</p>
+
+            <p>Let me explain with a real example. Maricopa County, Arizona contains about 60% of the state's population. In 2020, Biden won Arizona by <a href="https://www.azsos.gov/elections/results/2020-election-results">just over 10,000 votes</a>, and his margin in Maricopa County was crucial to that victory.</p>
+
+            <p>This means that if you could delay or refuse certification in just Maricopa County, you could potentially throw the entire state's electoral votes into question. And that's exactly what some officials tried to do—<a href="https://www.theguardian.com/us-news/2022/nov/28/arizona-republicans-certify-election-results-midterms">two Maricopa County supervisors initially refused to certify the 2022 results</a> before ultimately relenting under legal pressure.</p>
+
+            <p>Compare this to a national popular vote system. Maricopa County's votes would just be added to the national total. Refusing to certify them would still be bad, but it wouldn't threaten to flip the entire election—it would just mean some votes weren't counted in a much larger pool.</p>
+
+            <h2>Historical Context: This Isn't Hypothetical</h2>
+
+            <p>The 2000 election provides the clearest historical example of how the Electoral College creates these concentrated vulnerabilities.</p>
+
+            <p>The entire presidential election came down to Florida's 25 electoral votes. And within Florida, it came down to an extraordinarily small margin—ultimately <a href="https://www.britannica.com/event/United-States-presidential-election-of-2000">537 votes out of nearly 6 million cast</a>.</p>
+
+            <p>This meant that relatively small interventions in a single state could determine the presidency. The <a href="https://www.chicagotribune.com/2018/11/16/the-butterfly-ballot-fiasco/">butterfly ballot design in Palm Beach County</a> alone may have cost Al Gore thousands of votes. Secretary of State Katherine Harris's decisions about <a href="https://www.washingtonpost.com/wp-srv/onpolitics/elections/recount.htm">which counties could conduct manual recounts</a> became pivotal. The Supreme Court's decision to stop the recount in <a href="https://supreme.justia.com/cases/federal/us/531/98/">Bush v. Gore</a> effectively decided the presidency.</p>
+
+            <p>In a national popular vote system, Gore's ~540,000 vote national popular vote lead would have simply made him president. Florida wouldn't have mattered.</p>
+
+            <h2>The Swing State Concentration Effect Gets Worse Over Time</h2>
+
+            <p>Here's what concerns me looking forward: The set of truly competitive states keeps shrinking.</p>
+
+            <p>According to <a href="https://fivethirtyeight.com/features/the-odds-of-an-electoral-college-popular-vote-split-are-increasing/">analysis by electoral forecaster Nate Silver</a>, only about 6-8 states are genuinely competitive in most recent presidential elections. This means the "attack surface" for election subversion keeps getting more concentrated.</p>
+
+            <p>In 2024, virtually all campaign resources, legal challenges, and election administration scrutiny focused on Arizona, Georgia, Michigan, Nevada, Pennsylvania, and Wisconsin. It's reasonable to expect 2028 will be similar.</p>
+
+            <p>This creates a troubling dynamic: Bad actors know exactly where to focus their efforts. They can recruit sympathetic election officials in those specific counties. They can file challenges in those specific jurisdictions. They can pressure those specific state legislators.</p>
+
+            <h2>The Compounding Effect with Other Vulnerabilities</h2>
+
+            <p>Remember all those vulnerabilities we've discussed in previous newsletters—certification refusals, fake electors, voter roll purges, mass challenges? The Electoral College structure makes ALL of them more dangerous by concentrating their potential impact.</p>
+
+            <p>A voter roll purge that removes 50,000 eligible voters matters a lot more if it happens in a swing state where the margin might be 20,000 votes than if it happens in a safe state where the margin is 2 million votes.</p>
+
+            <p>A county board refusing certification matters a lot more if that county is in a state that could flip the Electoral College than if it's in a state that won't affect the outcome.</p>
+
+            <p>The Electoral College doesn't just create its own vulnerabilities—it amplifies all the other vulnerabilities we've discussed.</p>
+
+            <h2>What About the National Popular Vote Interstate Compact?</h2>
+
+            <p>You might be wondering about alternatives. The most developed proposal is the <a href="https://www.nationalpopularvote.com/">National Popular Vote Interstate Compact</a>, where states agree to award their electoral votes to the national popular vote winner once enough states join to reach 270 electoral votes.</p>
+
+            <p>Currently, <a href="https://en.wikipedia.org/wiki/National_Popular_Vote_Interstate_Compact">15 states plus DC have joined, totaling 209 electoral votes</a>—still 61 short of the threshold needed for activation.</p>
+
+            <p>The compact is clever because it works within the existing constitutional framework. Article II gives state legislatures the power to decide how electors are chosen, so states can legally agree to choose them based on the national popular vote.</p>
+
+            <p>But it faces significant hurdles. It needs buy-in from states that might lose influence under a national popular vote system. And if it ever activates, there will certainly be legal challenges, though <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1911127">most constitutional scholars believe it would survive</a>.</p>
+
+            <h2>International Comparison: How Other Democracies Handle This</h2>
+
+            <p>Most other democracies don't have this particular vulnerability because they elect their chief executive either directly by popular vote or through parliamentary systems where the legislature chooses the executive.</p>
+
+            <p>France, for example, elects its president through a direct national popular vote with a runoff if no candidate gets 50%. This means there's no equivalent of "swing departments" where subversion efforts could concentrate—every vote counts equally.</p>
+
+            <p>Germany uses a parliamentary system where the Bundestag elects the Chancellor. While this creates different vulnerabilities, it doesn't have the same concentrated attack surface problem.</p>
+
+            <p>The Electoral College is genuinely unusual in creating these high-value targets for subversion.</p>
+
+            <h2>Looking Ahead to 2028</h2>
+
+            <p>Here's what this analysis suggests for 2028 planning:</p>
+
+            <p><strong>The vulnerability is known and mapped.</strong> Everyone knows which states and counties will matter most. That's good for democracy defenders (you know where to focus) but also good for potential subverters (they know where to focus too).</p>
+
+            <p><strong>Marginal interventions could be decisive.</strong> In a state decided by 10,000 votes, a voter roll purge of 5,000 people, or a certification delay in one major county, or a successful challenge to one category of ballots could flip the outcome.</p>
+
+            <p><strong>The pressure will be immense.</strong> Election officials in swing counties of swing states will face enormous pressure from both sides. Some will face threats and harassment, as <a href="https://www.brennancenter.org/our-work/research-reports/election-officials-under-attack">documented extensively in 2020</a>.</p>
+
+            <p><strong>Defense requires depth.</strong> You can't just protect one part of the system. You need strong laws, good officials, fast courts, clear procedures, and public legitimacy in multiple swing states simultaneously.</p>
+
+            <h2>Bottom Line for Democracy Defenders</h2>
+
+            <p>The Electoral College structure isn't just a quirky constitutional feature. It fundamentally shapes the landscape of election subversion by creating concentrated points where relatively small interventions can have massive impacts.</p>
+
+            <p>This means that effective democracy protection requires:</p>
+
+            <li><strong>Targeted focus on swing state infrastructure.</strong> Resources for election official training, legal defense funds, and rapid response networks should prioritize the 6-8 states that will decide 2028.</li>
+
+            <li><strong>Redundant safeguards in high-value counties.</strong> Places like Maricopa County (AZ), Fulton County (GA), Wayne County (MI), Clark County (NV), Philadelphia County (PA), and Milwaukee County (WI) need extra attention—backup procedures, strong legal protections, and support for officials facing pressure.</li>
+
+            <li><strong>Deterrence through preparation.</strong> If would-be subverters know that every likely intervention point has strong defenses, good lawyers, and clear procedures, they're less likely to try.</li>
+
+            <li><strong>Long-term structural reform.</strong> The National Popular Vote Interstate Compact deserves serious support as a way to eliminate this concentrated attack surface entirely.</li>
+
+            <p><strong>Project idea:</strong> Consider supporting or starting an "Election Defense Coalition" specifically focused on the handful of counties in swing states with the highest probability of being decisive in 2028. This would provide specialized training, legal resources, and rapid-response capabilities for officials in exactly the places where subversion attempts are most likely to concentrate. Organizations like the <a href="https://statesuniteddemocracy.org/">States United Democracy Center</a> are doing some of this work, but there's room for more targeted, county-specific capacity building.</p>
+
+            <p>The mathematics of the Electoral College make the vulnerabilities predictable. That predictability is both a challenge and an opportunity for defenders.</p>
+        </div>
+        <div class="footer">
+            Generated daily at 06:00 America/New_York
+        </div>
+    </div>
+</body>
+</html>
