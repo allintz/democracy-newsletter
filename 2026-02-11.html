@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Newsletter - Wednesday, February 11, 2026</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #333;
+            background-color: #fafafa;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            border-bottom: 2px solid #2c5282;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #2c5282;
+            margin-bottom: 10px;
+        }
+        .date {
+            color: #718096;
+            font-size: 0.9em;
+        }
+        h2 {
+            color: #2d3748;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: #4a5568;
+            margin-top: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        a {
+            color: #2c5282;
+            text-decoration: underline;
+        }
+        a:hover {
+            color: #1a365d;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            color: #718096;
+            font-size: 0.9em;
+        }
+        ul, ol {
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        blockquote {
+            border-left: 4px solid #2c5282;
+            padding-left: 20px;
+            margin: 20px 0;
+            color: #4a5568;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Democracy Watch Newsletter</h1>
+            <div class="date">Wednesday, February 11, 2026</div>
+        </div>
+        <div class="content">
+            <h1>Daily Democracy Newsletter</h1>
+            <p><strong>Wednesday, February 11, 2026</strong></p>
+
+            <p>---</p>
+
+            <h2>How Voter Roll Purges Actually Work (And Why Timing Matters)</h2>
+
+            <p><strong>Epistemic status:</strong> High confidence on mechanics and legal framework; medium confidence on impact estimates, which vary by methodology.</p>
+
+            <p>You've probably heard about "voter roll purges" or "voter purge programs" in election news. But what actually happens during a purge? And why do election security experts worry about them so much?</p>
+
+            <p>Today I want to walk through the mechanics of how voters get removed from registration lists, why this process exists at all, and where the vulnerabilities lie. This is foundational knowledge because purge tactics will almost certainly be a flashpoint in 2028.</p>
+
+            <h3>Why Voter Rolls Need Maintenance (The Legitimate Case)</h3>
+
+            <p>Here's the basic problem: people move, people die, and people register in multiple states. If election offices don't clean up their rolls, they end up with bloated lists full of outdated registrations.</p>
+
+            <p>This creates real issues. Dead people on the rolls can fuel conspiracy theories (even though <a href="https://www.brennancenter.org/our-work/research-reports/debunking-voter-fraud-myth">dead people virtually never actually vote</a>). People registered in two states after moving might accidentally vote twice, which is illegal.</p>
+
+            <p>So every state has a process for removing outdated registrations. This is called "list maintenance," and when done properly, it's a normal part of election administration.</p>
+
+            <p>The National Voter Registration Act of 1993 actually requires states to make "reasonable efforts" to remove ineligible voters, according to <a href="https://www.brennancenter.org/our-work/research-reports/voter-purges">the Brennan Center's analysis of the law</a>. So this isn't optional.</p>
+
+            <h3>How Legitimate Purges Work</h3>
+
+            <p>States use several triggers to identify registrations that might need removal:</p>
+
+            <p><strong>Death records:</strong> When someone dies, vital statistics offices notify election offices. This is straightforward and rarely controversial.</p>
+
+            <p><strong>Change of address data:</strong> The U.S. Postal Service maintains a National Change of Address (NCOA) database. When someone files a change of address, this can trigger a notice to election offices.</p>
+
+            <p><strong>Interstate data sharing:</strong> States participate in systems like ERIC (Electronic Registration Information Center) that compare voter rolls across states to identify people who registered in a new state after moving.</p>
+
+            <p><strong>Jury duty and DMV records:</strong> Some states cross-reference voter rolls with other government databases to identify people who've moved or reported non-citizenship.</p>
+
+            <p>Here's the key safeguard: Under the National Voter Registration Act, states can't just immediately delete someone based on this data. They must send a confirmation notice to the voter. If the voter doesn't respond AND doesn't vote in the next two federal election cycles (four years), only then can the state remove them.</p>
+
+            <p>This "use it or lose it" rule is controversial, but it's currently legal after the Supreme Court's decision in <a href="https://www.brennancenter.org/our-work/court-cases/husted-v-philip-randolph-institute">Husted v. A. Philip Randolph Institute (2018)</a>.</p>
+
+            <h3>Where This Goes Wrong: Three Vulnerability Points</h3>
+
+            <p><strong>Problem 1: Bad Data Matching</strong></p>
+
+            <p>Imagine two voters named "Maria Garcia" in the same county. One moves to another state; one stays. If the state uses crude matching (just name and birth year), they might send a confirmation notice to the wrong Maria Garcia, or worse, remove the wrong person.</p>
+
+            <p>This isn't hypothetical. In 2019, Texas announced it had identified <a href="https://www.texastribune.org/2019/01/29/texas-non-citizen-voter-rolls-audit-explainer/">95,000 potential non-citizens on voter rolls</a>, triggering national headlines. Within weeks, the state admitted the list was wildly inaccurate—it included many naturalized citizens who had become eligible after getting their driver's licenses. The state eventually <a href="https://www.texastribune.org/2019/04/26/texas-voting-rights-groups-settle-with-state-citizenship-review/">agreed to rescind the entire purge program</a> in a settlement with voting rights groups.</p>
+
+            <p>The technical term here is "false positive rate"—how often your matching system incorrectly flags someone for removal. Even a 2% false positive rate sounds small until you realize that's 2,000 eligible voters in a county with 100,000 registrations.</p>
+
+            <p><strong>Problem 2: Timing</strong></p>
+
+            <p>Remember that 90-day safe harbor from the National Voter Registration Act? States can't systematically purge voters within 90 days of a federal election.</p>
+
+            <p>This rule exists because if you wrongly remove someone two weeks before the election, they may not have time to re-register. Even if same-day registration exists, showing up to find you're not on the list creates confusion and longer lines.</p>
+
+            <p>But here's the loophole: The 90-day window is short. A purge conducted 91 days before Election Day is legal. That gives wrongly purged voters just three months to discover the problem and fix it—and most people don't check their registration status regularly.</p>
+
+            <p>Ohio's 2016 purge illustrates this timing issue. The state removed approximately <a href="https://www.reuters.com/article/us-usa-voting-ohio/u-s-top-court-spurns-ohio-republicans-on-voter-purge-idUSKCN0YW2EZ">144,000 voters</a> from the rolls, with the process completed before the 90-day window. Some voters only discovered they'd been removed when they showed up to vote.</p>
+
+            <p><strong>Problem 3: Selective Enforcement</strong></p>
+
+            <p>Here's where partisan incentives enter the picture. Purges aren't distributed randomly—they disproportionately affect certain voters.</p>
+
+            <p>A <a href="https://www.brennancenter.org/our-work/research-reports/purges-growing-threat-right-vote">Brennan Center study of purge rates between 2014-2016</a> found that counties with a history of voter discrimination (previously covered by Voting Rights Act preclearance) purged voters at significantly higher rates than other counties.</p>
+
+            <p>Why does this happen? Partly because these jurisdictions often have fewer resources for accurate list maintenance. But the data also shows intentional targeting.</p>
+
+            <p>Georgia's 2018 purge became a case study. Secretary of State Brian Kemp—who was simultaneously running for governor—oversaw a purge of approximately <a href="https://www.apmreports.org/story/2018/10/19/georgia-voter-purge">670,000 voters</a> in the two years before the election. Kemp won the governorship by just 55,000 votes over Stacey Abrams.</p>
+
+            <p>An <a href="https://www.apmreports.org/story/2018/10/19/georgia-voter-purge">APM Reports investigation</a> found that the purge disproportionately affected Black voters and used aggressive matching criteria. For example, Georgia flagged registrations as "inactive" if the voter hadn't responded to a confirmation notice—even if they'd simply moved within the same county.</p>
+
+            <h3>The 2020 Playbook Extension</h3>
+
+            <p>After 2020, some Republican-controlled states passed laws making purges easier and more frequent.</p>
+
+            <p>Florida's SB 90 (2021) shortened the timeline for addressing registration issues. Texas SB 1 (2021) created new purge triggers and reduced notice requirements. Georgia's SB 202 (2021) allowed for more frequent challenges to individual voter registrations by other voters.</p>
+
+            <p>The <a href="https://www.votingrightslab.org/laws">Voting Rights Lab documented</a> that at least 19 states passed laws between 2021-2024 that expanded purge authority or shortened timelines.</p>
+
+            <p>These laws are technically neutral—they don't explicitly target Democratic voters. But they interact with demographic patterns in predictable ways. Voters who move frequently (renters, younger voters, lower-income voters) are more likely to be purged. These groups lean Democratic.</p>
+
+            <h3>What This Means for 2028</h3>
+
+            <p>Here's why this matters for election security going forward:</p>
+
+            <p><strong>The attack surface is enormous.</strong> With 50 states managing their own voter rolls, there are 50 potential targets for aggressive purging. Unlike fake electors (which requires coordination) or legislative certification refusals (which require legislative majorities), purges can be executed by a single elected secretary of state or appointed election board.</p>
+
+            <p><strong>The legal cover is built-in.</strong> Because list maintenance is required by federal law, aggressive purging can be justified as "following the law" or "preventing fraud." This makes it harder to challenge and harder to prosecute if it crosses ethical lines.</p>
+
+            <p><strong>The impact is plausibly deniable.</strong> Unlike refusing to certify results (which is obvious and dramatic), a purge that removes 100,000 voters from a swing state might subtract 1-2% from one candidate's total. In a close race, that's decisive. But it's hard to prove the purge was <em>intended</em> to swing the outcome rather than just being aggressive list maintenance.</p>
+
+            <p><strong>Remedies are slow.</strong> If a court finds a purge was illegal, the remedy is usually "restore the wrongly purged voters." But this takes time. If the finding comes after the election, those voters already lost their chance to vote.</p>
+
+            <h3>Bottom Line: What You Can Do With This Knowledge</h3>
+
+            <p>If you're thinking about projects in the democracy space, here are the key leverage points:</p>
+
+            <p><strong>1. Monitoring and transparency.</strong> Only about half of states publish detailed data on purge activity. Organizations like the <a href="https://www.brennancenter.org/">Brennan Center</a> and <a href="https://www.voteriders.org/">VoteRiders</a> track this, but there's room for more systematic monitoring. A project that scrapes and publishes state purge data in real-time could create accountability.</p>
+
+            <p><strong>2. Voter notification systems.</strong> Most voters don't know they've been purged until Election Day. A service that proactively notifies voters if they've been removed (by cross-referencing public purge lists with voter contact data) could dramatically reduce the impact. <a href="https://www.vote.org/">Vote.org</a> does some of this, but it could be expanded.</p>
+
+            <p><strong>3. Legal preparation.</strong> The 90-day safe harbor means legal challenges need to be filed early, ideally monitoring purge activity starting six months before the election. Organizations like the <a href="https://campaignlegal.org/">Campaign Legal Center</a> do this work, but they're capacity-constrained in swing states.</p>
+
+            <p><strong>4. State legislative fixes.</strong> Some states have enacted strong protections—automatic voter registration, longer notice periods, stricter matching criteria. Getting these laws passed in swing states before 2028 would reduce vulnerability. <a href="https://allvotingislocal.org/">All Voting is Local</a> focuses on this kind of advocacy.</p>
+
+            <p>The key insight: Voter roll purges are a "slow-motion" form of election manipulation. Unlike a dramatic certification refusal, they happen quietly over months. That makes them both more likely to succeed and harder to detect. Understanding the mechanics now means you can spot the warning signs in 2027.</p>
+
+            <p><strong>Key Takeaway for Project Builders:</strong> The window to prevent purge-based manipulation in 2028 is now—specifically, the 12 months before the 90-day safe harbor (roughly November 2027). Projects that create transparency, notification systems, or legal rapid-response capacity in that window would have maximum impact. The other key leverage point is 2026 state elections for secretary of state positions in swing states, since these officials often control purge decisions.</p>
+
+            <p>---</p>
+
+            <p><em>Tomorrow: How parallel vote tabulation works and why it might be the strongest safeguard against certification refusals</em></p>
+        </div>
+        <div class="footer">
+            Generated daily at 06:00 America/New_York
+        </div>
+    </div>
+</body>
+</html>
