@@ -19,12 +19,14 @@
       <link>https://allintz.github.io/democracy-newsletter/podcast</link>
     </image>
     <item>
-      <title>The Courage Trap: Why Individual Heroes Can&apos;t Save Democracy (And What Can)</title>
-      <description>There&apos;s a story we keep telling ourselves about 2020. It goes like this: Democracy held because a few brave Republicans—Brad Raffensperger in Georgia, Rusty Bowers in Arizona, Mike Pence on January 6—...</description>
-      <pubDate>Fri, 13 Feb 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://raw.githubusercontent.com/allintz/democracy-newsletter/main/podcast/2026-02-13.mp3" length="11557451" type="audio/mpeg"/>
-      <guid isPermaLink="false">2026-02-13.mp3</guid>
-      <itunes:duration>720</itunes:duration>
+      <title>The Secret Weapon That Saved Georgia&apos;s Elections: How Specific Procedural Rules Made Subversion Harder</title>
+      <description>I want to talk about something that sounds incredibly boring but turns out to be critical: the specific procedural rules that govern how election results get certified.
+
+Here&apos;s why this matters: When...</description>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/allintz/democracy-newsletter/main/podcast/2026-02-14.mp3" length="10456546" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-02-14.mp3</guid>
+      <itunes:duration>600</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
