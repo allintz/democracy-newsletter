@@ -19,12 +19,14 @@
       <link>https://allintz.github.io/democracy-newsletter/podcast</link>
     </image>
     <item>
-      <title>The Three-Day Window: Why Post-Election Canvassing Is Democracy&apos;s Most Exposed Moment</title>
-      <description>Here&apos;s the thing about elections that most people don&apos;t realize: there&apos;s a three-day window after the polls close that&apos;s shockingly vulnerable. And unlike the dramatic certification fights you&apos;ve hear...</description>
+      <title>Voice Cloning Meets Election Administration: The Coming Crisis Nobody&apos;s Preparing For</title>
+      <description>Let&apos;s talk about a vulnerability in US election infrastructure that almost nobody is thinking about, but that keeps a small group of security researchers awake at night.
+
+Picture this: It&apos;s 10pm on El...</description>
       <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://raw.githubusercontent.com/allintz/democracy-newsletter/main/podcast/2026-03-08.mp3" length="6407853" type="audio/mpeg"/>
+      <enclosure url="https://raw.githubusercontent.com/allintz/democracy-newsletter/main/podcast/2026-03-08.mp3" length="5893677" type="audio/mpeg"/>
       <guid isPermaLink="false">2026-03-08.mp3</guid>
-      <itunes:duration>420</itunes:duration>
+      <itunes:duration>360</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
