@@ -19,14 +19,12 @@
       <link>https://allintz.github.io/democracy-newsletter/podcast</link>
     </image>
     <item>
-      <title>The Secret Weapon That Saved Georgia&apos;s Elections: How Specific Procedural Rules Made Subversion Harder</title>
-      <description>I want to talk about something that sounds incredibly boring but turns out to be critical: the specific procedural rules that govern how election results get certified.
-
-Here&apos;s why this matters: When...</description>
-      <pubDate>Sat, 14 Feb 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://raw.githubusercontent.com/allintz/democracy-newsletter/main/podcast/2026-02-14.mp3" length="10456546" type="audio/mpeg"/>
-      <guid isPermaLink="false">2026-02-14.mp3</guid>
-      <itunes:duration>600</itunes:duration>
+      <title>The Three-Day Window: Why Post-Election Canvassing Is Democracy&apos;s Most Exposed Moment</title>
+      <description>Here&apos;s the thing about elections that most people don&apos;t realize: there&apos;s a three-day window after the polls close that&apos;s shockingly vulnerable. And unlike the dramatic certification fights you&apos;ve hear...</description>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/allintz/democracy-newsletter/main/podcast/2026-03-08.mp3" length="6407853" type="audio/mpeg"/>
+      <guid isPermaLink="false">2026-03-08.mp3</guid>
+      <itunes:duration>420</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
